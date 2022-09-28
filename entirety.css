@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(2, 105, 217);
+    color: white;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a{
+    text-decoration: none;
+}
+#document{
+    background-color: rgb(2, 105, 217);
+    color: white;
+}
+#document a:visited{
+    color: white;
+}

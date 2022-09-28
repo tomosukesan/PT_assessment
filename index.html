@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>obnizと理学療法評価</title>
+    <!-- ファビコンも作ろうか -->
+    <script src="https://unpkg.com/stein-js-client"></script>
+    <link rel="stylesheet" type="text/css" href="entirety.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <h2>メインページ</h2>
+    <div class="container">
+        <form action="#">
+            <p>対象者 ID <input type="text" id="id"></p>
+            <p>　　 年齢 <input type="text" id="age"></p>
+            <p>　　 性別
+                <input type="radio" name="gender" value="male">男性
+                <input type="radio" name="gender" value="female">女性
+            </p>
+            <p><input type="submit" value="送信" onclick="showMessage()" class="btn btn-outline-primary"></p>
+        </form>
+        <p id="output-message"></p>
+        <!-- obnizに近づくver.とobnizから遠ざかるver.を作ってもよいか。 -->
+        <p>いまはどれもobnizに近づく挙動です。</p>
+        <p>
+            <a href="8feet.html">8feet歩行テスト</a>
+        </p>
+        <p>
+            <a href="FunctionalReach.html">Functional Reachテスト</a>
+        </p>
+        <p>
+            <a href="2step.html">2stepテスト</a>
+        </p>
+        <p>
+            <a href="training.html">トレーニング</a>
+        </p>
+    </div>
+    <p id="document">
+        <a href="https://www.appsheet.com/start/02a9e51f-54b7-4e68-b5a8-84674b564a68#appName=%E7%90%86%E5%AD%A6%E7%99%82%E6%B3%95%E8%A9%95%E4%BE%A1-4077649&group=%5B%5D&page=deck&sort=%5B%5D&table=sheet1&view=sheet1"
+        target="_blank" rel="noopener noreferrer">　結果発表</a>
+    </p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
